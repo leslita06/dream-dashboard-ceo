@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Brancher vos données · Dream Cosmetics · Prototype</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="assets/symbole.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="proto">Prototype · <b>données de démonstration fictives</b> · aucun chiffre de cette page n'est un chiffre réel de Dream Cosmetics</div>
+<header class="top"><div class="top-in">
+  <img src="assets/logo.png" alt="Dream Cosmetics">
+  <div class="t"><h1>Brancher vos données</h1><div class="sub">Remplacer la démonstration par vos vraies ventes</div></div>
+  <nav><a class="btn plein" href="./">← Revenir au tableau de bord</a></nav>
+</div></header>
+
+<div class="doc">
+  <h2>Sept fichiers, un dossier</h2>
+  <p>Le tableau de bord ne contient aucun chiffre en dur : il lit sept fichiers placés dans le dossier <code>data/</code>. Pour passer de la démonstration à vos vraies ventes, il suffit de remplacer ces fichiers par l'export de votre logiciel de gestion, en gardant les mêmes noms de colonnes. Rien d'autre à modifier.</p>
+  <div class="encart"><b>Format commun.</b> Fichiers texte CSV, séparateur point-virgule, encodage UTF-8, une ligne d'en-tête. Dates au format <code>AAAA-MM-JJ</code>, montants en francs CFA hors taxes, sans espace ni symbole (<code>1250000</code>). Les identifiants (<code>G001</code>, <code>C01</code>…) sont libres : il faut seulement qu'ils soient les mêmes d'un fichier à l'autre.</div>
+
+  <h3>1. ventes.csv · une ligne par produit commandé</h3>
+  <table class="t"><thead><tr><th>Colonne</th><th>Contenu</th><th>Exemple</th></tr></thead><tbody>
+    <tr><td><code>date</code></td><td>Date de la facture ou de la livraison</td><td>2026-10-14</td></tr>
+    <tr><td><code>commande</code></td><td>Numéro de commande ou de facture (sert au panier moyen)</td><td>FA-2026-01542</td></tr>
+    <tr><td><code>grossiste_id</code></td><td>Code client du grossiste</td><td>G014</td></tr>
+    <tr><td><code>produit_id</code></td><td>Code article</td><td>P001</td></tr>
+    <tr><td><code>quantite</code></td><td>Unités vendues</td><td>144</td></tr>
+    <tr><td><code>montant_ht</code></td><td>Montant de la ligne, hors taxes, après remise</td><td>226800</td></tr>
+  </tbody></table>
+
+  <h3>2. pertes.csv · une ligne par perte constatée</h3>
+  <table class="t"><thead><tr><th>Colonne</th><th>Contenu</th><th>Exemple</th></tr></thead><tbody>
+    <tr><td><code>date</code></td><td>Date à laquelle la perte est constatée (avoir, inventaire, passage en créance douteuse)</td><td>2026-09-30</td></tr>
+    <tr><td><code>grossiste_id</code></td><td>Grossiste concerné</td><td>G014</td></tr>
+    <tr><td><code>type_perte</code></td><td>Une des cinq natures, écrite exactement ainsi : <b>Invendus et retours</b> · <b>Périmés ou abîmés</b> · <b>Casse au transport</b> · <b>Impayés et créances douteuses</b> · <b>Écarts de stock</b></td><td>Casse au transport</td></tr>
+    <tr><td><code>produit_id</code></td><td>Code article si la perte porte sur un produit ; vide pour un impayé ou un écart global</td><td>P118</td></tr>
+    <tr><td><code>montant</code></td><td>Valeur de la perte en francs CFA (au prix de cession pour un produit, au montant non recouvré pour un impayé)</td><td>85000</td></tr>
+  </tbody></table>
+  <p>Le taux de perte est calculé par le tableau : pertes divisées par les ventes hors taxes de la même période et du même périmètre. Le net après pertes est la différence des deux. Quand un filtre marque ou univers est actif, seules les pertes rattachées à un produit sont comptées.</p>
+
+  <h3>3. grossistes.csv · votre fichier clients</h3>
+  <table class="t"><thead><tr><th>Colonne</th><th>Contenu</th><th>Exemple</th></tr></thead><tbody>
+    <tr><td><code>grossiste_id</code></td><td>Code client</td><td>G014</td></tr>
+    <tr><td><code>grossiste</code></td><td>Raison sociale ou enseigne</td><td>Établissements …</td></tr>
+    <tr><td><code>ville</code>, <code>district</code></td><td>Localisation</td><td>Daloa ; Sassandra-Marahoué</td></tr>
+    <tr><td><code>zone_id</code></td><td>Zone commerciale de rattachement (voir zones.csv)</td><td>Z4</td></tr>
+    <tr><td><code>latitude</code>, <code>longitude</code></td><td>Position du dépôt, en degrés décimaux (un relevé sur Google Maps suffit ; à défaut, celle de la ville)</td><td>6.877 ; -6.450</td></tr>
+    <tr><td><code>commercial_id</code></td><td>Commercial qui suit le grossiste</td><td>C07</td></tr>
+  </tbody></table>
+
+  <h3>4. equipe.csv · l'organisation commerciale</h3>
+  <table class="t"><thead><tr><th>Colonne</th><th>Contenu</th><th>Exemple</th></tr></thead><tbody>
+    <tr><td><code>commercial_id</code></td><td>Code du commercial</td><td>C07</td></tr>
+    <tr><td><code>commercial</code></td><td>Nom affiché</td><td>Prénom N.</td></tr>
+    <tr><td><code>responsable_zone</code></td><td>Nom du responsable de zone dont il dépend</td><td>Prénom N.</td></tr>
+    <tr><td><code>zone_id</code></td><td>Zone</td><td>Z4</td></tr>
+  </tbody></table>
+
+  <h3>5. zones.csv · le découpage commercial</h3>
+  <table class="t"><thead><tr><th>Colonne</th><th>Contenu</th><th>Exemple</th></tr></thead><tbody>
+    <tr><td><code>zone_id</code>, <code>zone</code>, <code>couleur</code></td><td>Code, nom affiché et couleur sur la carte</td><td>Z4 ; Centre-Ouest ; #C98B5E</td></tr>
+  </tbody></table>
+  <p>Les contours de la carte (fichier <code>districts.geojson</code>, quatorze districts officiels) portent chacun un code de zone. Si votre découpage ne suit pas les districts, nous redessinons ce fichier à partir de votre liste.</p>
+
+  <h3>6. produits.csv · le catalogue</h3>
+  <table class="t"><thead><tr><th>Colonne</th><th>Contenu</th><th>Exemple</th></tr></thead><tbody>
+    <tr><td><code>produit_id</code>, <code>produit</code></td><td>Code et libellé article</td><td>P001 ; Day by Day crème aloe vera</td></tr>
+    <tr><td><code>marque</code>, <code>univers</code></td><td>Marque et famille (alimentent les filtres et graphiques)</td><td>Day by Day ; Visage et corps</td></tr>
+    <tr><td><code>prix_unitaire_ht</code></td><td>Prix de cession grossiste</td><td>1575</td></tr>
+  </tbody></table>
+
+  <h3>7. objectifs.csv · les objectifs mensuels</h3>
+  <table class="t"><thead><tr><th>Colonne</th><th>Contenu</th><th>Exemple</th></tr></thead><tbody>
+    <tr><td><code>mois</code></td><td>Mois de l'objectif</td><td>2026-11</td></tr>
+    <tr><td><code>commercial_id</code></td><td>Commercial</td><td>C07</td></tr>
+    <tr><td><code>objectif_ht</code></td><td>Objectif de ventes hors taxes du mois</td><td>18500000</td></tr>
+  </tbody></table>
+  <p>Les objectifs des responsables et des zones sont la somme de ceux de leurs commerciaux.</p>
+
+  <h3>Enfin, config.json</h3>
+  <p>La date d'arrêté des données (<code>date_arrete</code>), qui sert au calcul des grossistes sans commande depuis trente jours, et le libellé du bandeau. Le bandeau « données fictives » disparaît quand le champ <code>fictif</code> passe à <code>false</code>.</p>
+
+  <h2 style="margin-top:44px">Comment on le branche</h2>
+  <ol class="etapes">
+    <li><b>Un export de test.</b> Trois mois de ventes extraits de votre logiciel de gestion commerciale (Sage, logiciel maison ou tableur), même brut, avec le fichier clients et la liste des commerciaux.</li>
+    <li><b>La correspondance.</b> Nous rapprochons vos colonnes de celles-ci et écrivons la conversion une fois pour toutes ; nous contrôlons les totaux contre votre chiffre d'affaires déclaré.</li>
+    <li><b>Les pertes.</b> Avoirs pour retours, inventaires et créances douteuses viennent souvent de trois endroits différents : nous les réunissons dans <code>pertes.csv</code> et validons avec vous la règle de chaque nature.</li>
+    <li><b>La mise à jour.</b> Dépôt du nouvel export chaque semaine ou chaque mois ; la page se met à jour d'elle-même, à la même adresse, en accès restreint.</li>
+  </ol>
+</div>
+
+<footer class="pied">
+  <div>Dream Cosmetics · tableau de bord de pilotage commercial · prototype · données de démonstration fictives.</div>
+  <div class="y">Prototype proposé par Yelema</div>
+</footer>
+</body>
+</html>

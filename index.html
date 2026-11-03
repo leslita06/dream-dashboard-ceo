@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Dream Cosmetics · Pilotage commercial · Prototype</title>
+<meta name="robots" content="noindex,nofollow">
+<meta name="description" content="Prototype de tableau de bord du directeur général de Dream Cosmetics : ventes des grossistes par zone, responsable et commercial. Données de démonstration fictives.">
+<meta name="theme-color" content="#16070A">
+<link rel="icon" href="assets/symbole.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/leaflet.css">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="chargement" id="chargement"><img src="assets/logo.png" alt="Dream Cosmetics"></div>
+<div class="proto">Prototype · <b>données de démonstration fictives</b> · aucun chiffre de cette page n'est un chiffre réel de Dream Cosmetics</div>
+
+<header class="top">
+  <div class="top-in">
+    <img src="assets/logo.png" alt="Dream Cosmetics">
+    <div class="t">
+      <h1>Pilotage commercial</h1>
+      <div class="sub">Ventes aux grossistes · Côte d'Ivoire · <span id="arrete"></span></div>
+    </div>
+    <nav>
+      <button class="btn" id="b-export" title="Télécharger les grossistes de la vue filtrée">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 21h16"/></svg>Exporter la vue</button>
+      <a class="btn plein" href="brancher.html">Brancher vos données</a>
+    </nav>
+  </div>
+</header>
+
+<div class="filtres">
+  <div class="f-in">
+    <div class="f"><label for="f-gran">Période</label>
+      <select id="f-gran"><option value="A">Année</option><option value="T">Trimestre</option><option value="M">Mois</option></select></div>
+    <div class="f"><label for="f-per">&nbsp;</label><select id="f-per"></select></div>
+    <label class="tg" title="Comparer à la même période de l'année précédente"><input type="checkbox" id="f-cmp" checked><i></i>Comparer à N-1</label>
+    <div class="f"><label for="f-zone">Zone</label><select id="f-zone"></select></div>
+    <div class="f"><label for="f-resp">Responsable de zone</label><select id="f-resp"></select></div>
+    <div class="f"><label for="f-comm">Commercial</label><select id="f-comm"></select></div>
+    <div class="f"><label for="f-gross">Grossiste</label><select id="f-gross"></select></div>
+    <div class="f"><label for="f-univ">Univers</label><select id="f-univ"></select></div>
+    <div class="f"><label for="f-marq">Marque</label><select id="f-marq"></select></div>
+    <button class="raz" id="raz" hidden>Tout effacer</button>
+  </div>
+</div>
+
+<main>
+  <div class="contexte" id="contexte"></div>
+
+  <section class="carte-bloc">
+    <div class="carte-wrap">
+      <div id="carte" aria-label="Carte des grossistes en Côte d'Ivoire"></div>
+      <div class="carte-ctl">
+        <div class="seg" id="mode">
+          <button data-m="ventes" class="on">Ventes</button>
+          <button data-m="pertes">Pertes</button>
+          <button data-m="net">Net après pertes</button>
+        </div>
+      </div>
+      <div class="carte-hint">Cliquez une région pour filtrer la page, une bulle pour ouvrir le grossiste</div>
+      <div class="carte-leg" id="carte-leg"></div>
+    </div>
+    <aside class="panneau">
+      <h3>Les six zones</h3>
+      <p style="margin:0;color:var(--doux);font-size:13px" id="panneau-sous">Chiffre d'affaires de la période</p>
+      <div class="zl" id="zones"></div>
+    </aside>
+  </section>
+
+  <section class="kpis" id="kpis"></section>
+
+  <h2 class="sec"><span class="num">ALERTES</span>Ce qui demande votre attention</h2>
+  <p class="secd">Calculées sur la période et les filtres choisis. Un clic sur une ligne filtre la page ou ouvre le grossiste.</p>
+  <div class="c" style="margin-bottom:18px">
+    <div class="hd"><div></div>
+      <label class="seuil">Seuil d'alerte pertes <input type="range" id="seuil" min="1" max="10" step="0.5" value="4"><b id="seuil-v">4 %</b></label>
+    </div>
+    <div class="alertes" id="alertes"></div>
+  </div>
+
+  <h2 class="sec"><span class="num">01</span>L'équipe commerciale</h2>
+  <p class="secd">Réalisé contre objectif. Le trait noir marque l'objectif de la période ; la barre devient verte quand il est atteint.</p>
+  <div class="grille">
+    <div class="c c5">
+      <div class="hd"><div><h3>Responsables de zone</h3><p>Ventes de leurs commerciaux</p></div></div>
+      <div class="rk" id="rk-resp"></div>
+    </div>
+    <div class="c c7">
+      <div class="hd"><div><h3>Commerciaux</h3><p id="rk-comm-sous">Classés par taux d'atteinte de l'objectif</p></div>
+        <div class="leg-o"><span><i style="background:var(--rouge)"></i>sous l'objectif</span><span><i style="background:#2E7D5B"></i>objectif atteint</span><span><b class="o"></b>objectif</span></div></div>
+      <div class="rk" id="rk-comm"></div>
+    </div>
+  </div>
+
+  <h2 class="sec"><span class="num">02</span>Les ventes</h2>
+  <p class="secd">Mois par mois, par univers et par marque. Un clic sur un univers ou une marque filtre la page.</p>
+  <div class="grille">
+    <div class="c c8">
+      <div class="hd"><div><h3>Évolution mensuelle</h3><p id="evo-sous"></p></div></div>
+      <div class="ch lg"><canvas id="ch-mois"></canvas></div>
+    </div>
+    <div class="c c4">
+      <div class="hd"><div><h3>Par univers</h3><p>Part du chiffre d'affaires</p></div></div>
+      <div class="ch lg"><canvas id="ch-univ"></canvas></div>
+    </div>
+    <div class="c c12">
+      <div class="hd"><div><h3>Par marque</h3><p>Les vingt premières marques de la période</p></div></div>
+      <div class="ch"><canvas id="ch-marq"></canvas></div>
+    </div>
+  </div>
+
+  <h2 class="sec"><span class="num">03</span>Les grossistes</h2>
+  <p class="secd">Tous les grossistes de la vue, triables par colonne. Un clic ouvre la fiche : historique, commercial, produits achetés, pertes.</p>
+  <div class="c" style="margin-bottom:18px">
+    <div class="tbar">
+      <div class="srch"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+        <input id="q" type="search" placeholder="Rechercher un grossiste, une ville, un commercial…"></div>
+      <span id="t-cpt" style="color:var(--doux);font-size:13px"></span>
+      <button class="btn" id="b-export2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 21h16"/></svg>Exporter (CSV)</button>
+    </div>
+    <div class="tw"><table class="t" id="t-gross"><thead></thead><tbody></tbody></table></div>
+  </div>
+
+  <h2 class="sec"><span class="num">04</span>Les pertes</h2>
+  <p class="secd">Invendus et retours, produits périmés ou abîmés, casse au transport, impayés et créances douteuses, écarts de stock. Le taux de perte rapporte les pertes aux ventes de la même vue.</p>
+  <div class="c" style="margin-bottom:18px;padding:14px 18px">
+    <div class="types" id="types"></div>
+  </div>
+  <div class="grille">
+    <div class="c c4">
+      <div class="hd"><div><h3>Zones les plus coûteuses</h3><p>Montant des pertes de la période</p></div></div>
+      <ol class="top5" id="top-zones"></ol>
+    </div>
+    <div class="c c4">
+      <div class="hd"><div><h3>Grossistes les plus coûteux</h3><p>Montant des pertes de la période</p></div></div>
+      <ol class="top5" id="top-gross"></ol>
+    </div>
+    <div class="c c4">
+      <div class="hd"><div><h3>Nature des pertes</h3><p>Répartition du montant</p></div></div>
+      <div class="ch sm"><canvas id="ch-types"></canvas></div>
+    </div>
+    <div class="c c7">
+      <div class="hd"><div><h3>Pertes mois par mois</h3><p>Montant par nature, et taux de perte</p></div></div>
+      <div class="ch lg"><canvas id="ch-pertes"></canvas></div>
+    </div>
+    <div class="c c5">
+      <div class="hd"><div><h3>Rentabilité nette par zone</h3><p>Ventes moins pertes</p></div></div>
+      <div class="ch lg"><canvas id="ch-net"></canvas></div>
+    </div>
+    <div class="c c12">
+      <div class="hd"><div><h3>Taux de perte</h3><p>Ventes, pertes, taux et net après pertes, au niveau choisi</p></div>
+        <div class="seg" id="niv-pertes"><button data-n="zone" class="on">Zones</button><button data-n="resp">Responsables</button><button data-n="comm">Commerciaux</button><button data-n="gross">Grossistes</button></div></div>
+      <div class="tw" style="max-height:440px"><table class="t" id="t-pertes"><thead></thead><tbody></tbody></table></div>
+    </div>
+  </div>
+</main>
+
+<footer class="pied">
+  <div>Dream Cosmetics · tableau de bord de pilotage commercial · prototype. Toutes les données de ventes, de pertes, d'objectifs, les grossistes et l'équipe sont fictifs. Marques et produits : catalogue public de dreamcosmetics.net. Contours des districts : geoBoundaries (CC BY 4.0).</div>
+  <div class="y">Prototype proposé par Yelema</div>
+</footer>
+
+<div class="voile" id="voile"></div>
+<aside class="fiche" id="fiche" aria-hidden="true"></aside>
+
+<script src="assets/leaflet.js"></script>
+<script src="assets/chart.umd.min.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
