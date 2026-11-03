@@ -1,0 +1,79 @@
+grossiste_id;grossiste;ville;district;zone_id;latitude;longitude;commercial_id
+G001;Centrale Jasmin;Adjamé;Abidjan;Z1;5.371;-4.0381;C02
+G002;Entrepôt Karité;Adjamé;Abidjan;Z1;5.3638;-4.0307;C04
+G003;Centrale Cauris;Adjamé;Abidjan;Z1;5.3543;-4.0312;C04
+G004;Centrale Bélier;Treichville;Abidjan;Z1;5.2864;-4.018;C04
+G005;Centrale Samba;Treichville;Abidjan;Z1;5.2925;-3.993;C04
+G006;Comptoir Boussole;Yopougon;Abidjan;Z1;5.3287;-4.0703;C03
+G007;Dépôt Éléphant Blanc;Yopougon;Abidjan;Z1;5.3436;-4.0756;C04
+G008;Négoce Colibri;Yopougon;Abidjan;Z1;5.3497;-4.0878;C04
+G009;Dépôt Sassandra;Abobo;Abidjan;Z1;5.4321;-4.0212;C03
+G010;Négoce Zénith;Abobo;Abidjan;Z1;5.4327;-4.0323;C04
+G011;Centrale Carrefour Nord;Koumassi;Abidjan;Z1;5.3024;-3.963;C01
+G012;Entrepôt Marahoué;Koumassi;Abidjan;Z1;5.2842;-3.9585;C03
+G013;Centrale Sablier;Cocody;Abidjan;Z1;5.36;-3.98;C02
+G014;Négoce Cannelle;Marcory;Abidjan;Z1;5.302;-3.981;C03
+G015;Dépôt Bambou;Port-Bouët;Abidjan;Z1;5.255;-3.926;C04
+G016;Entrepôt Vallée Verte;Bingerville;Abidjan;Z1;5.355;-3.885;C04
+G017;Cash Comète;Anyama;Abidjan;Z1;5.494;-4.052;C02
+G018;Comptoir Acajou;Songon;Abidjan;Z1;5.31;-4.25;C01
+G019;Cash Alizé;Dabou;Lagunes;Z2;5.32;-4.377;C05
+G020;Galerie Grenadier;Agboville;Lagunes;Z2;5.928;-4.213;C05
+G021;Comptoir Caméléon;Tiassalé;Lagunes;Z2;5.898;-4.823;C06
+G022;Galerie Pagne Bleu;Adzopé;Lagunes;Z2;6.107;-3.86;C05
+G023;Centrale Cavally;Grand-Lahou;Lagunes;Z2;5.137;-5.024;C06
+G024;Négoce Panthère;Sikensi;Lagunes;Z2;5.676;-4.575;C05
+G025;Cash Kapokier;Aboisso;Comoé;Z2;5.467;-3.207;C06
+G026;Dépôt Lotus;Grand-Bassam;Comoé;Z2;5.211;-3.739;C06
+G027;Comptoir Rivière Claire;Abengourou;Comoé;Z2;6.7359;-3.5091;C05
+G028;Comptoir Nouvel Élan;Abengourou;Comoé;Z2;6.7447;-3.4904;C06
+G029;Centrale Nzassa;Bonoua;Comoé;Z2;5.272;-3.596;C05
+G030;Négoce Fromager;Yamoussoukro;Yamoussoukro;Z3;6.8334;-5.3016;C07
+G031;Entrepôt Horizon Sud;Yamoussoukro;Yamoussoukro;Z3;6.8283;-5.2743;C08
+G032;Négoce Bonne Route;Yamoussoukro;Yamoussoukro;Z3;6.8256;-5.269;C08
+G033;Cash Gazelle;Dimbokro;Lacs;Z3;6.65;-4.705;C08
+G034;Centrale Manguier;Toumodi;Lacs;Z3;6.557;-5.019;C08
+G035;Dépôt Iroko;Bongouanou;Lacs;Z3;6.651;-4.204;C09
+G036;Dépôt Trois Collines;Daoukro;Lacs;Z3;7.059;-3.963;C07
+G037;Maison Muscade;Bouaké;Vallée du Bandama;Z3;7.7081;-5.0149;C07
+G038;Négoce Palmeraie;Bouaké;Vallée du Bandama;Z3;7.6841;-5.0437;C07
+G039;Maison Tamarinier;Bouaké;Vallée du Bandama;Z3;7.6948;-5.0388;C07
+G040;Entrepôt Ancre;Bouaké;Vallée du Bandama;Z3;7.6807;-5.0278;C09
+G041;Dépôt Bel Horizon;Katiola;Vallée du Bandama;Z3;8.137;-5.101;C08
+G042;Dépôt Lumière;Béoumi;Vallée du Bandama;Z3;7.674;-5.58;C09
+G043;Comptoir Harmonie;Gagnoa;Gôh-Djiboua;Z4;6.1399;-5.9636;C11
+G044;Entrepôt Néré;Gagnoa;Gôh-Djiboua;Z4;6.1445;-5.9594;C12
+G045;Galerie Flamboyant;Divo;Gôh-Djiboua;Z4;5.8274;-5.3745;C10
+G046;Entrepôt Baobab;Divo;Gôh-Djiboua;Z4;5.8556;-5.3747;C11
+G047;Maison Tournesol;Lakota;Gôh-Djiboua;Z4;5.85;-5.68;C10
+G048;Galerie Héron;Daloa;Sassandra-Marahoué;Z4;6.8882;-6.4457;C11
+G049;Comptoir Phare;Daloa;Sassandra-Marahoué;Z4;6.8696;-6.4614;C11
+G050;Dépôt Cacaoyer;Daloa;Sassandra-Marahoué;Z4;6.872;-6.4499;C12
+G051;Entrepôt Mistral;Bouaflé;Sassandra-Marahoué;Z4;6.99;-5.744;C11
+G052;Comptoir Bougainvillier;Issia;Sassandra-Marahoué;Z4;6.492;-6.586;C12
+G053;Cash Étoile Verte;San-Pédro;Bas-Sassandra;Z4;4.7393;-6.6428;C10
+G054;Dépôt Ébène;San-Pédro;Bas-Sassandra;Z4;4.7587;-6.6432;C11
+G055;Comptoir Vanille;San-Pédro;Bas-Sassandra;Z4;4.7663;-6.6481;C12
+G056;Négoce Arc-en-ciel;Soubré;Bas-Sassandra;Z4;5.7699;-6.6245;C12
+G057;Galerie Comoé Bleue;Soubré;Bas-Sassandra;Z4;5.7909;-6.5998;C12
+G058;Galerie Pélican;Sassandra;Bas-Sassandra;Z4;4.951;-6.083;C11
+G059;Cash Kente;Tabou;Bas-Sassandra;Z4;4.423;-7.353;C11
+G060;Maison Bandama;Man;Montagnes;Z5;7.3993;-7.5729;C13
+G061;Cash Rosée;Man;Montagnes;Z5;7.4235;-7.5649;C14
+G062;Cash Lion d'Or;Duékoué;Montagnes;Z5;6.741;-7.349;C14
+G063;Galerie Citronnelle;Guiglo;Montagnes;Z5;6.543;-7.493;C13
+G064;Négoce Tisserin;Danané;Montagnes;Z5;7.26;-8.155;C13
+G065;Entrepôt Grand Marché;Séguéla;Woroba;Z5;7.961;-6.673;C14
+G066;Galerie Perle du Sud;Touba;Woroba;Z5;8.283;-7.683;C13
+G067;Comptoir Hibiscus;Mankono;Woroba;Z5;8.059;-6.19;C13
+G068;Négoce Calao;Odienné;Denguélé;Z5;9.51;-7.565;C14
+G069;Galerie Antilope;Korhogo;Savanes;Z6;9.4605;-5.638;C15
+G070;Centrale Mont Tonkoui;Korhogo;Savanes;Z6;9.46;-5.63;C16
+G071;Entrepôt Akwaba;Korhogo;Savanes;Z6;9.4443;-5.6326;C15
+G072;Galerie Tortue;Ferkessédougou;Savanes;Z6;9.592;-5.194;C16
+G073;Comptoir Aurore;Boundiali;Savanes;Z6;9.521;-6.487;C15
+G074;Entrepôt Fennec;Tengréla;Savanes;Z6;10.48;-6.41;C15
+G075;Dépôt Orchidée;Bondoukou;Zanzan;Z6;8.0413;-2.786;C15
+G076;Comptoir Lagune d'Or;Bondoukou;Zanzan;Z6;8.0352;-2.7815;C16
+G077;Négoce Djeli;Bouna;Zanzan;Z6;9.27;-3.0;C15
+G078;Galerie Kouroukan;Tanda;Zanzan;Z6;7.8;-3.17;C16

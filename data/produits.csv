@@ -1,0 +1,399 @@
+produit_id;produit;marque;univers;prix_unitaire_ht
+P001;Day by day · Vanity;Day by Day;Visage et corps;1575
+P002;Day by Day crème aloe vera & glycérine;Day by Day;Visage et corps;2375
+P003;Day by Day crème cacao;Day by Day;Visage et corps;1325
+P004;Day by day crème grenadine;Day by Day;Visage et corps;2150
+P005;Day by Day crème hydratante amande douce & glycérine;Day by Day;Visage et corps;2200
+P006;Day by Day Eau de cologne Fresh;Day by Day;Parfum;4025
+P007;Day by Day Eau de cologne Jade;Day by Day;Parfum;3950
+P008;Day by Day Eau de cologne Men;Day by Day;Parfum;4075
+P009;Day by Day Eau de cologne Rose;Day by Day;Parfum;3050
+P010;Day by day gel douche anti moustique;Day by Day;Corps (douche);950
+P011;DAY BY DAY Glycérine;Day by Day;Visage et corps;2475
+P012;Day by Day huile;Day by Day;Visage et corps;2250
+P013;Day by day Lait aloe vera & glycérine;Day by Day;Visage et corps;2300
+P014;Day by Day lait amande;Day by Day;Visage et corps;2800
+P015;Day by Day Lait cacao;Day by Day;Visage et corps;1700
+P016;Day by Day Lait grenadine;Day by Day;Visage et corps;2500
+P017;Day by Day pommade aloe vera;Day by Day;Visage et corps;2525
+P018;Day by day pommade amande;Day by Day;Visage et corps;2025
+P019;Day by Day pommade cacao;Day by Day;Visage et corps;2225
+P020;Day by Day pommade grenadine;Day by Day;Visage et corps;1775
+P021;DAY BY DAY Pommade hydratante beurre de karité;Day by Day;Visage et corps;2100
+P022;Day by day Rose divine;Day by Day;Corps (douche);1100
+P023;Day by day rêve de miel;Day by Day;Corps (douche);1600
+P024;Day by Day Savon Aloe vera;Day by Day;Savon;550
+P025;Day by Day Savon aloe vera & glycérine;Day by Day;Savon;350
+P026;Day by Day Savon Amande;Day by Day;Savon;550
+P027;Day by Day Savon Amande;Day by Day;Savon;525
+P028;Day by Day savon cacao;Day by Day;Savon;350
+P029;Day by Day Savon Grenadine;Day by Day;Savon;475
+P030;Day by Day Savon grenadine;Day by Day;Savon;475
+P031;Day by Day Talc fresh;Day by Day;Visage et corps;1250
+P032;Day by Day Talc Jade;Day by Day;Visage et corps;1850
+P033;Day by Day Talc Men;Day by Day;Visage et corps;2050
+P034;Day by Day Talc Rose;Day by Day;Visage et corps;2150
+P035;DAY BY DAY Women crème apaisante lait d'avoine & glycérine;Day by Day;Visage et corps;1350
+P036;DAY BY DAY Women crème nourrissante karité & collagène;Day by Day;Visage et corps;1150
+P037;DAY BY DAY Women crème revitalisante moringa & allantoïne;Day by Day;Visage et corps;2800
+P038;DAY BY DAY Women crème réparatrice collagène & allantoïne;Day by Day;Visage et corps;1175
+P039;DAY BY DAY WOMEN gel douche apaisant lait d'avoine & allantoïne Description Actif;Day by Day;Corps (douche);1425
+P040;DAY BY DAY WOMEN gel douche nourrissant beurre de karité;Day by Day;Corps (douche);1375
+P041;DAY BY DAY WOMEN gel douche revitalisant moringa & allantoïne;Day by Day;Corps (douche);1150
+P042;DAY BY DAY WOMEN gel douche réparateur allantoïne;Day by Day;Corps (douche);1750
+P043;DAY BY DAY Women Lait apaisant lait d'avoine & glycérine;Day by Day;Visage et corps;1950
+P044;DAY BY DAY Women Lait nourrissant karité & collagène;Day by Day;Visage et corps;2300
+P045;DAY BY DAY Women Lait revitalisant moringa & allantoïne;Day by Day;Visage et corps;1725
+P046;DAY BY DAY WOMEN Lait réparateur collagène & allantoïne;Day by Day;Visage et corps;1675
+P047;DAY BY DAY Women pommade apaisante lait d'avoine;Day by Day;Visage et corps;1975
+P048;DAY BY DAY Women pommade nourrissante beurre de karité;Day by Day;Visage et corps;1975
+P049;DAY BY DAY Women pommade revitalisante moringa;Day by Day;Visage et corps;1700
+P050;DAY BY DAY Women pommade réparatrice huile d'amande douce;Day by Day;Visage et corps;1550
+P051;DAY BY DAY Women poudre parfumée bloom petal;Day by Day;Visage et corps;2250
+P052;DAY BY DAY WOMEN poudre parfumée green escape;Day by Day;Visage et corps;1350
+P053;DAY BY DAY Women poudre parfumée simply clean;Day by Day;Visage et corps;1975
+P054;DAY BY DAY WOMEN savon de toilette apaisant lait d'avoine & allantoïne;Day by Day;Savon;400
+P055;DAY BY DAY WOMEN savon de toilette nourrissant beurre de karité;Day by Day;Savon;500
+P056;DAY BY DAY WOMEN savon de toilette revitalisant moringa & allantoïne;Day by Day;Savon;425
+P057;DAY BY DAY WOMEN savon de toilette réparateur allantoïne;Day by Day;Savon;400
+P058;Day by day déodorant spray attract power;Day by Day;Parfum;3125
+P059;DAY BY DAY MAN Lait hydratant Attract power;Day by Day;Homme;2225
+P060;Day by day men crème perfect day;Day by Day;Homme;1625
+P061;Day by day men déodorant roll-on attract power;Day by Day;Parfum;3325
+P062;Day by day men déodorant roll-on energy boost;Day by Day;Parfum;3975
+P063;Day by day men déodorant roll-on extra dry;Day by Day;Parfum;4125
+P064;Day by day men déodorant spray energy boost;Day by Day;Parfum;3725
+P065;Day by day men déodorant spray extra dry;Day by Day;Parfum;3500
+P066;Day by day men eau de cologne coolness;Day by Day;Parfum;3125
+P067;Day by day men gel douche attract power;Day by Day;Homme;1950
+P068;Day by Day Men gel douche Energy boost;Day by Day;Homme;2400
+P069;Day by day men gel douche fresh clean;Day by Day;Homme;2575
+P070;Day by day men lait hydratant energy boost;Day by Day;Homme;2075
+P071;Day by day men Lait hydratant perfect day;Day by Day;Homme;2400
+P072;Day by day men Pommade après-rasage;Day by Day;Homme;2575
+P073;Day by day men pommade réparatrice perfect day;Day by Day;Parfum;3375
+P074;Day by Day Men savon deep clean;Day by Day;Savon;425
+P075;Day by Day Men vanity;Day by Day;Homme;2125
+P076;Day by day men sport · tube menthol;Day by Day;Homme;1700
+P077;Day by Day Men Sport Baume Menthol;Day by Day;Homme;1300
+P078;Day by Day Men Sport Crème;Day by Day;Homme;1975
+P079;DAY BY DAY MEN SPORT déodorant roll-on chrono fresh;Day by Day;Parfum;3925
+P080;Day by Day Men Sport Eau de cologne;Day by Day;Parfum;3825
+P081;Day by Day Men Sport Gel douche;Day by Day;Homme;2550
+P082;Day by day Men Sport Lait;Day by Day;Homme;2550
+P083;Day by Day Men Sport savon;Day by Day;Savon;425
+P084;DAY BY DAY MEN SPORT spray déodorant chrono fresh;Day by Day;Parfum;4125
+P085;Day by Day Men Sport Talc;Day by Day;Homme;2075
+P086;Day by Day Men Sport Vanity;Day by Day;Homme;2500
+P087;Day by day baby crème hydratante visage et corps;Day by Day;Bébé et enfant;2075
+P088;Day by day baby Eau de Cologne;Day by Day;Parfum;1775
+P089;Day by day baby gel lavant 2 en 1 corps & cheveux;Day by Day;Bébé et enfant;1200
+P090;Day by day baby lait hydratant huile d'amande douce & huile de pépins de raisin;Day by Day;Bébé et enfant;1425
+P091;Day by day baby pommade nourrissante;Day by Day;Bébé et enfant;1925
+P092;Day by day baby savon extra doux huile d'amande douce;Day by Day;Bébé et enfant;1050
+P093;Day by day baby talc apaisant & protecteur;Day by Day;Bébé et enfant;1150
+P094;Day by day kids crème hydratante;Day by Day;Bébé et enfant;1925
+P095;Day by day kids eau de cologne;Day by Day;Parfum;3875
+P096;Day by day kids gel lavant 2 en 1 corps & cheveux;Day by Day;Bébé et enfant;1750
+P097;Day by day kids lait hydratant avocat & provitamine B5;Day by Day;Bébé et enfant;1075
+P098;Day by day kids pommade nourrissante;Day by Day;Bébé et enfant;1725
+P099;Day by day kids savon extra doux beurre d'avocat;Day by Day;Bébé et enfant;1925
+P100;Day by day kids talc apaisant & protecteur;Day by Day;Bébé et enfant;1325
+P101;DBD beurre lèvres coco & argan;Day by Day;Soin spécifique;2600
+P102;DBD beurre lèvres fruits rouges;Day by Day;Soin spécifique;2400
+P103;DBD Beurre lèvres pour homme;Day by Day;Soin spécifique;2725
+P104;DBD lip butter care & repair;Day by Day;Soin spécifique;1825
+P105;DBD Lait anti-moustiques protect family;Day by Day;Soin spécifique;2525
+P106;DBD Lait anti-moustiques protect kids;Day by Day;Soin spécifique;2700
+P107;DBD Spray anti-moustiques protect family;Day by Day;Soin spécifique;1750
+P108;DBD Spray anti-moustiques protect kids;Day by Day;Soin spécifique;1750
+P109;DBD Crème mains douceur amande douce;Day by Day;Soin spécifique;2850
+P110;DBD Crème mains karité;Day by Day;Soin spécifique;2850
+P111;DBD Crème mains SOS repair;Day by Day;Soin spécifique;2475
+P112;PAW PAW crème clarifiante extraits de papaye;Paw Paw;Visage et corps;2550
+P113;PAW PAW crème clarifiante intense extraits de papaye;Paw Paw;Visage et corps;2650
+P114;PAW PAW Dark spot remover · extraits de papaye;Paw Paw;Visage et corps;1600
+P115;PAW PAW gel douche clarifiant · gommant papaye & poudre de noyau d'abricot;Paw Paw;Corps (douche);1200
+P116;PAW PAW gel douche clarifiant extraits de papaye;Paw Paw;Corps (douche);1650
+P117;PAW PAW Huile clarifiante extraits de papaye;Paw Paw;Visage et corps;1350
+P118;PAW PAW Lait clarifiant extraits de papaye;Paw Paw;Visage et corps;2825
+P119;PAW PAW Lightdrop sérumactivateur d’éclat extraits de papaye;Paw Paw;Visage et corps;2350
+P120;PAW PAW Savon clarifiant extraits de papaye;Paw Paw;Savon;325
+P121;Cocopulp · tube intense;Cocopulp;Visage et corps;1400
+P122;Cocopulp Crème clarifiante;Cocopulp;Visage et corps;2350
+P123;Cocopulp Gel douche;Cocopulp;Corps (douche);1600
+P124;Cocopulp Huile;Cocopulp;Visage et corps;2325
+P125;Cocopulp Lait;Cocopulp;Visage et corps;1850
+P126;Cocopulp Savon clarifiant;Cocopulp;Savon;450
+P127;Dermaskin crème visage et corps · beurre de cacao;Dermaskin;Visage et corps;2750
+P128;Dermaskin crème visage et corps · Citron;Dermaskin;Visage et corps;2825
+P129;Dermaskin crème visage et corps · Glycerine;Dermaskin;Visage et corps;1650
+P130;Dermaskin Crème visage et corps · vitamine E;Dermaskin;Visage et corps;2025
+P131;Dermaskin Visage et main beurre de cacao;Dermaskin;Visage;3425
+P132;Dermaskin visage et main Glycérine;Dermaskin;Visage;2150
+P133;Dermaskin visage et main Vitamine C;Dermaskin;Visage;3100
+P134;Dermaskin Visage et main Vitamine E;Dermaskin;Visage;2650
+P135;Biolight · Pommade;Biolight;Visage et corps;2725
+P136;Biolight · tube clarifiant;Biolight;Visage et corps;1350
+P137;Biolight Crème;Biolight;Visage et corps;2025
+P138;Biolight Gel douche;Biolight;Corps (douche);1350
+P139;Biolight huile;Biolight;Visage et corps;1200
+P140;Biolight Lait;Biolight;Visage et corps;1725
+P141;Biolight Savon;Biolight;Savon;500
+P142;Clear therapy crème clarifiante aux extraits végétaux;Clear Therapy;Visage et corps;2350
+P143;Clear therapy crème clarifiante huile de carotte;Clear Therapy;Visage et corps;2575
+P144;Clear therapy crème clarifiante intense aux extraits végétaux;Clear Therapy;Visage et corps;1700
+P145;Clear therapy crème clarifiante intense huile de carotte;Clear Therapy;Visage et corps;1150
+P146;Clear therapy gel douche clarifiant aux extraits végétaux;Clear Therapy;Corps (douche);1375
+P147;Clear therapy gel douche clarifiant huile de carotte;Clear Therapy;Corps (douche);1700
+P148;Clear therapy lait clarifiant huile de carotte;Clear Therapy;Visage et corps;1250
+P149;Clear therapy savon clarifiant aux extraits végétaux;Clear Therapy;Savon;475
+P150;Clear therapy savon clarifiant huile de carotte;Clear Therapy;Savon;350
+P151;Clear therapy sérum clarifiant aux extraits végétaux;Clear Therapy;Visage et corps;2625
+P152;Clear therapy sérum clarifiant huile de carotte;Clear Therapy;Visage et corps;1525
+P153;Clear therapyl lait clarifiant aux extraits végétaux;Clear Therapy;Visage et corps;2300
+P154;Babymed · eau de parfum;Babymed;Parfum;3075
+P155;Babymed · Huile;Babymed;Bébé et enfant;1350
+P156;Babymed · Pommade;Babymed;Bébé et enfant;1550
+P157;Babymed · vanity;Babymed;Bébé et enfant;1950
+P158;Babymed beurre Nourrissant;Babymed;Bébé et enfant;1775
+P159;Babymed Crème;Babymed;Bébé et enfant;1450
+P160;Babymed EDC;Babymed;Parfum;2725
+P161;Babymed Gel lavant;Babymed;Bébé et enfant;1150
+P162;Babymed Lait de toilette;Babymed;Bébé et enfant;1275
+P163;Babymed Lingettes;Babymed;Bébé et enfant;1775
+P164;Babymed Savon;Babymed;Bébé et enfant;2025
+P165;Babymed talc protecteur;Babymed;Bébé et enfant;1575
+P166;DREAMY;Dreamy;Parfum;3050
+P167;DREAMY;Dreamy;Parfum;4150
+P168;DREAMY;Dreamy;Parfum;2300
+P169;DREAMY;Dreamy;Parfum;2250
+P170;DREAMY;Dreamy;Parfum;3825
+P171;DREAMY;Dreamy;Parfum;2700
+P172;SIGN;Sign;Parfum;3600
+P173;SIGN;Sign;Parfum;3625
+P174;SIGN;Sign;Parfum;2025
+P175;SIGN;Sign;Parfum;2275
+P176;SIGN;Sign;Parfum;2925
+P177;SIGN;Sign;Parfum;4225
+P178;SLAM;Slam;Parfum;4400
+P179;SLAM;Slam;Parfum;2900
+P180;SLAM;Slam;Parfum;3225
+P181;SLAM;Slam;Parfum;2100
+P182;SLAM;Slam;Parfum;4200
+P183;I Love Abidjan;I love;Parfum;3475
+P184;I Love Dakar;I love;Parfum;2450
+P185;I Love Dubai;I love;Parfum;3775
+P186;I Love Kinshasa;I love;Parfum;2825
+P187;I Love London;I love;Parfum;3025
+P188;I Love New York;I love;Parfum;3000
+P189;I Love Paris;I love;Parfum;2475
+P190;AL NASSIB Adam;Al Nassib;Parfum;2700
+P191;AL NASSIB AMIR;Al Nassib;Parfum;4450
+P192;AL NASSIB AYA;Al Nassib;Parfum;2000
+P193;AL NASSIB MIRAGE;Al Nassib;Parfum;2100
+P194;AL NASSIB SHAZA;Al Nassib;Parfum;2325
+P195;AL NASSIB TAHANI;Al Nassib;Parfum;2700
+P196;Forever young · tube clarifiant;Always young;Visage et corps;1775
+P197;Forever young creme 120ML;Always young;Visage et corps;2250
+P198;Forever young creme 300 ML;Always young;Visage et corps;1175
+P199;Forever young gel douche;Always young;Corps (douche);1550
+P200;Forever young Lait;Always young;Visage et corps;2100
+P201;forever young savon;Always young;Savon;500
+P202;Aqualis · gel douche cool menthol;Aqualis;Hygiène et bain;1475
+P203;Aqualis · gel douche glycérine;Aqualis;Hygiène et bain;725
+P204;Aqualis · gel douche karité;Aqualis;Hygiène et bain;1050
+P205;aqualis · gel douche rose préciseuse;Aqualis;Hygiène et bain;1125
+P206;Aqualis · savon de toilette abricot;Aqualis;Savon;500
+P207;Aqualis · SAVON DE TOILETTE DOUCEUR DE GLYCERINE;Aqualis;Savon;500
+P208;Aqualis · savon de toilette karité;Aqualis;Savon;525
+P209;aqualis · savon men;Aqualis;Savon;500
+P210;Aqualis Black;Aqualis;Parfum;2525
+P211;Aqualis Blue;Aqualis;Parfum;1925
+P212;Aqualis gel douche carotte;Aqualis;Hygiène et bain;675
+P213;Aqualis gel douche cool shower gel;Aqualis;Hygiène et bain;1100
+P214;Aqualis Pink;Aqualis;Parfum;2975
+P215;aqualis savon de toilette 300 gr;Aqualis;Savon;325
+P216;aqualis savon de toilette abricot 460 gr;Aqualis;Savon;500
+P217;Aqualis savon de toilette black;Aqualis;Savon;500
+P218;aqualis savon de toilette carotte;Aqualis;Savon;550
+P219;Aqualis savon de toilette carotte;Aqualis;Savon;450
+P220;aqualis savon de toilette cool;Aqualis;Savon;425
+P221;Aqualis savon de toilette cool & camphre;Aqualis;Savon;350
+P222;Aqualis savon de toilette glycérine;Aqualis;Savon;375
+P223;aqualis savon de toilette glycérine 460gr;Aqualis;Savon;300
+P224;aqualis savon de toilette lait 300gr;Aqualis;Savon;400
+P225;aqualis savon de toilette rose;Aqualis;Savon;350
+P226;Aqualis White;Aqualis;Parfum;4100
+P227;Babiya · Eau de cologne;Babiya;Parfum;1750
+P228;Babiya · gel douche;Babiya;Bébé et enfant;950
+P229;Babiya · Lait hydratant;Babiya;Bébé et enfant;2075
+P230;Babiya · lingettes;Babiya;Bébé et enfant;1800
+P231;Babiya · pommade hydroprotectrice;Babiya;Bébé et enfant;1525
+P232;Babiya · sac;Babiya;Bébé et enfant;1775
+P233;Babiya · savon;Babiya;Bébé et enfant;1925
+P234;Babiya · talc parfume 200-400g;Babiya;Bébé et enfant;1300
+P235;Babiya · talc parfume 300g;Babiya;Bébé et enfant;1075
+P236;BABIYA eau de parfum;Babiya;Parfum;4375
+P237;Bactigel désinfectant surface & sol;Bactigel;Hygiène et bain;850
+P238;Bactigel gel main actifresh 60;Bactigel;Hygiène et bain;1250
+P239;Bactigel gel main antibactérien;Bactigel;Hygiène et bain;1050
+P240;Bactigel gel main antibactérien;Bactigel;Hygiène et bain;850
+P241;Bactigel lingettes désinfectantes;Bactigel;Hygiène et bain;850
+P242;Bactigel pink feeling 350;Bactigel;Hygiène et bain;1375
+P243;bactigel pink feeling 60;Bactigel;Hygiène et bain;925
+P244;Bactigel savon liquide mains désinfectant;Bactigel;Savon;300
+P245;Bactigel spray désinfectant;Bactigel;Hygiène et bain;850
+P246;Bactigel spray désinfectant surface et sols;Bactigel;Hygiène et bain;800
+P247;bactigel sweet aloe 350;Bactigel;Hygiène et bain;800
+P248;Bactigel sweet aloe 60;Bactigel;Hygiène et bain;750
+P249;BLACK STAR Gel coiffant;Black star;Cheveux;1225
+P250;BLACK STAR Gel fixant;Black star;Cheveux;1175
+P251;BLACK STAR Shampoing nourrissant auxprotéines d’œufs, huile de ricin et coco.;Black star;Cheveux;1275
+P252;BOA FAMILY Moisturizing Vaseline · Papaya;Boa Family;Visage et corps;2000
+P253;BOA FAMILY Vaseline hydratante aloe Vera;Boa Family;Visage et corps;1500
+P254;BOA FAMILY vaseline hydratante carotte;Boa Family;Visage et corps;2425
+P255;BOA FAMILY vaseline hydratante coco;Boa Family;Visage et corps;2050
+P256;BOA FAMILY vaseline original;Boa Family;Visage et corps;2500
+P257;Boudchou · panier bleu;Boudchou;Bébé et enfant;1250
+P258;Boudchou · Panier Rose;Boudchou;Bébé et enfant;1925
+P259;Boudchou eau de cologne fille;Boudchou;Parfum;2575
+P260;Boudchou eau de cologne fille 500 ml;Boudchou;Parfum;3850
+P261;Boudchou Eau de cologne Garçon;Boudchou;Parfum;4125
+P262;Boudchou Eau de Cologne Garçon Grand Format;Boudchou;Parfum;3325
+P263;Boudchou eau de parfum fille;Boudchou;Parfum;2700
+P264;Boudchou eau de parfum garçon;Boudchou;Parfum;4125
+P265;Boudchou huile de soin fille;Boudchou;Bébé et enfant;1100
+P266;Boudchou lait de toilette fille;Boudchou;Bébé et enfant;1525
+P267;Boudchou lait de toilette garçon;Boudchou;Bébé et enfant;1575
+P268;Boudchou Lait fille;Boudchou;Bébé et enfant;1875
+P269;Boudchou Lingettes Fille;Boudchou;Bébé et enfant;1600
+P270;Boudchou lingettes Garçon;Boudchou;Bébé et enfant;1575
+P271;Boudchou pommade fille;Boudchou;Bébé et enfant;1450
+P272;Boudchou pommade Garçon;Boudchou;Bébé et enfant;1875
+P273;Boudchou savon fille;Boudchou;Bébé et enfant;1850
+P274;Boudchou savon garçon;Boudchou;Bébé et enfant;1875
+P275;Boudchou talc fille 200g;Boudchou;Bébé et enfant;1400
+P276;Boudchou talc fille grand format;Boudchou;Bébé et enfant;2075
+P277;Boudchou Talc Garçon;Boudchou;Bébé et enfant;1200
+P278;Boudchou talc garçon 300 g;Boudchou;Bébé et enfant;950
+P279;Curcuma method;Curcuma method;Visage et corps;2450
+P280;Curcuma method;Curcuma method;Visage et corps;1400
+P281;Curcuma method;Curcuma method;Savon;375
+P282;Curcuma method;Curcuma method;Visage et corps;1775
+P283;Curcuma method;Curcuma method;Corps (douche);1175
+P284;DR WANG Baume mentholé;Dr Wang;Soin spécifique;3100
+P285;DR WANG Crème de massage mentholé;Dr Wang;Soin spécifique;1550
+P286;DR WANG Huile mentholée;Dr Wang;Soin spécifique;2700
+P287;DR WANG Roll-on mentholé stop douleur;Dr Wang;Soin spécifique;2575
+P288;DR WANG Savon mentholé;Dr Wang;Savon;475
+P289;DR WANG Talc mentholé;Dr Wang;Soin spécifique;1700
+P290;EVEN BETTER crème hydratante beurre de cacao;Even Better;Visage et corps;1900
+P291;EVEN BETTER crème hydratante beurre de karité;Even Better;Visage et corps;2300
+P292;EVEN BETTER Lait hydratant beurre de karité;Even Better;Visage et corps;1750
+P293;EVEN BETTER Lait hydratant cacao butter;Even Better;Visage et corps;2700
+P294;Fres gel douche aloe vera;Fres;Hygiène et bain;1475
+P295;Fres gel douche cacao;Fres;Hygiène et bain;1050
+P296;Fres gel douche coco;Fres;Hygiène et bain;1450
+P297;fres gel douche marine;Fres;Hygiène et bain;1175
+P298;Fres gel douche rose;Fres;Hygiène et bain;675
+P299;Fres savon cacao;Fres;Savon;525
+P300;Fres savon citron;Fres;Savon;525
+P301;fres savon de toilette aloe vera;Fres;Savon;350
+P302;Fres savon de toilette marine;Fres;Savon;475
+P303;Fres savon de toilette rose;Fres;Savon;425
+P304;Fres savon fruité au lait aloe;Fres;Savon;375
+P305;Fres savon fruité au lait citron;Fres;Savon;350
+P306;Fres savon fruité au lait fruits rouges;Fres;Savon;325
+P307;Fres savon fruité au lait orange;Fres;Savon;350
+P308;Fres savon liquide aloe vera;Fres;Savon;375
+P309;Fres savon liquide cacao;Fres;Savon;450
+P310;Fres savon liquide coco;Fres;Savon;425
+P311;Fres savon liquide fruits rouges;Fres;Savon;375
+P312;fres savon liquide marine;Fres;Savon;525
+P313;Fres savon liquide rose;Fres;Savon;475
+P314;fres savon raisin;Fres;Savon;350
+P315;HIT DIVA;Hit;Parfum;3475
+P316;HIT FEVER;Hit;Parfum;3325
+P317;HIT Hero;Hit;Parfum;2375
+P318;HIT KING;Hit;Parfum;4000
+P319;HIT SPARK;Hit;Parfum;3225
+P320;Hydralux · Lait avocat;Hydralux;Visage et corps;1500
+P321;Hydralux · Lait Coco;Hydralux;Visage et corps;1800
+P322;Hydralux · Lait Dermoprotecteur;Hydralux;Visage et corps;1250
+P323;Hydralux · Lait rose;Hydralux;Visage et corps;1150
+P324;IBIZA Gel douche GOLDEN;Ibiza;Hygiène et bain;1000
+P325;IBIZA Gel douche ORIGIN;Ibiza;Hygiène et bain;1125
+P326;IBIZA Gel douche PUNCH;Ibiza;Hygiène et bain;1025
+P327;IBIZA Gel douche RELAX;Ibiza;Hygiène et bain;1175
+P328;IBIZA Gel douche SENSUAL;Ibiza;Hygiène et bain;800
+P329;Lea savon carotte;Lea;Savon;350
+P330;Lea savon lys;Lea;Savon;350
+P331;Lea savon mimosa;Lea;Savon;500
+P332;Lea savon rose;Lea;Savon;400
+P333;Lea savon violette;Lea;Savon;550
+P334;Les authentiques · EDC 1757;Les authentiques;Parfum;3525
+P335;Les authentiques · EDC Impérial;Les authentiques;Parfum;3000
+P336;Les authentiques · EDC M LOUISE;Les authentiques;Parfum;1750
+P337;Les authentiques · EDC Napoléon;Les authentiques;Parfum;1900
+P338;Les authentiques · EDC Royal mirage;Les authentiques;Parfum;3800
+P339;Les authentiques · EDC Ugo stefani;Les authentiques;Parfum;4450
+P340;medi + savon gingembre;Medi +;Savon;450
+P341;medi + savon herbal;Medi +;Savon;425
+P342;medi + savon red;Medi +;Savon;350
+P343;Miss coﬀret;Miss;Parfum;4000
+P344;Miss déo talc parfumé;Miss;Parfum;4150
+P345;Miss déodorant parfumé roll on;Miss;Parfum;2125
+P346;Miss eau de parfum gold star;Miss;Parfum;3925
+P347;Miss eau de parfum jet black;Miss;Parfum;2200
+P348;Miss eau de parfum plum red;Miss;Parfum;3250
+P349;Miss eau de parfum rose claire;Miss;Parfum;2100
+P350;Miss spray déodorant red plum;Miss;Parfum;3975
+P351;PILI-PILI METHOD;Pili-pili method;Corps (douche);1025
+P352;PILI-PILI METHOD;Pili-pili method;Visage et corps;2350
+P353;PILI-PILI METHOD;Pili-pili method;Visage et corps;2225
+P354;PILI-PILI METHOD;Pili-pili method;Savon;475
+P355;PILI-PILI METHOD;Pili-pili method;Visage et corps;1700
+P356;Spring savon antibactérien glycérine;Spring;Savon;525
+P357;Spring savon antibactérien glycérine;Spring;Savon;325
+P358;Spring savon antibactérien glycérine & citron;Spring;Savon;475
+P359;Spring savon antibactérien glycérine & citron;Spring;Savon;300
+P360;Spring savon de beauté harmonie glycérine;Spring;Savon;375
+P361;Spring savon de beauté harmonie glycérine;Spring;Savon;325
+P362;SPRING savon de beauté succès glycérine & huile de carotte;Spring;Savon;525
+P363;Spring savon de beauté succès glycérine & huile de carotte;Spring;Savon;525
+P364;Spring savon de beauté séduction glycérine;Spring;Savon;450
+P365;Spring savon de beauté séduction glycérine;Spring;Savon;450
+P366;Spring savon de beauté sérénité glycérine;Spring;Savon;550
+P367;Spring savon de beauté sérénité glycérine;Spring;Savon;350
+P368;Spring savon mains antibactérien glycérine;Spring;Savon;475
+P369;Spring savon mains antibactérien glycérine & citron;Spring;Savon;300
+P370;Spring savon mains harmonie;Spring;Savon;300
+P371;Spring savon mains succès huile de carotte;Spring;Savon;525
+P372;Spring savon mains séduction;Spring;Savon;350
+P373;Spring savon mains sérénité;Spring;Savon;425
+P374;Stars · EDP Blue;Stars;Parfum;1975
+P375;Stars · EDP Gold;Stars;Parfum;3550
+P376;Stars · EDP Pink;Stars;Parfum;3800
+P377;Stars · EDP Purple;Stars;Parfum;2150
+P378;Stars · EDP Silver;Stars;Parfum;4375
+P379;Stars EDP Black;Stars;Parfum;4300
+P380;VIP Black Eau de cologne;Vip;Parfum;3050
+P381;VIP Black Savon;Vip;Parfum;1900
+P382;VIP black talc déodorant;Vip;Parfum;1700
+P383;VIP Coffret VIP;Vip;Parfum;3175
+P384;VIP déodorant parfumé roll on;Vip;Parfum;2125
+P385;VIP déodorant spray parfumé;Vip;Parfum;4325
+P386;VIP Eau de Parfum Black;Vip;Parfum;1750
+P387;VIP Eau de parfum Blue;Vip;Parfum;3400
+P388;VIP Eau de parfum Gold;Vip;Parfum;4350
+P389;VIP Eau de parfum Green;Vip;Parfum;2775
+P390;VIP Eau de parfum Grey;Vip;Parfum;3450
+P391;VIP gel douche parfumé;Vip;Parfum;2950
+P392;VIP Intense Black;Vip;Parfum;2050
+P393;Derma Skin Crème visage et corps au citron;Dermaskin;Visage et corps;1500
+P394;Derma Skin Crème visage et corps à la vitamine E;Dermaskin;Visage et corps;1675
+P395;Derma Skin Crème visage et corps à la glycérine;Dermaskin;Visage et corps;2550
+P396;Derma Skin lait hydratant pour les mains et le corps à la vitamine E;Dermaskin;Visage et corps;2625
+P397;Derma Skin lait hydratant pour les mains et le corps à la glycérine;Dermaskin;Visage et corps;2825
+P398;CT+ Clear Therapy savon clarifiant pureté aux extraits végétaux;Clear Therapy;Savon;400
